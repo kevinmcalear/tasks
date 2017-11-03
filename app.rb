@@ -14,8 +14,9 @@
 
 # [START app]
 require "sinatra"
+require "dotenv/load"
 
 get "/" do
-  "basic setup works"
+  "basic setup works #{ENV['TEST']}"
 end
 # [END app]

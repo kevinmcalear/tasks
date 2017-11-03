@@ -16,6 +16,7 @@
 source "https://rubygems.org"
 
 gem "sinatra"
+gem "dotenv"
 # [END dependencies]
 
 group :test do
