@@ -17,6 +17,9 @@ source "https://rubygems.org"
 
 gem "sinatra"
 gem "dotenv"
+gem "httparty"
+gem "ruby-trello"
+gem "pry"
 # [END dependencies]
 
 group :test do
